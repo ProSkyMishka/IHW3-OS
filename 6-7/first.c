@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
     }
 
     work(client_socket, working_time, field_size);
-    printf("The work is completed\n");
+    printf("Gardener 1 finish work\n");
     close(client_socket);
     exit(0);
 }
