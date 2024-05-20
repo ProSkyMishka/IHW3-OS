@@ -44,6 +44,6 @@ void sendHandleRequest(int client_socket, struct Task task) {
     } while (status != 1);
 
     if (task.status != 1) {
-        printf("Gardener %d handle (%d, %d)\n", task.gardener_id, task.plot_i, task.plot_j);
+        printf("Gardener %d takes (%d, %d)\n", task.gardener_id, task.plot_i, task.plot_j);
     }
 }
